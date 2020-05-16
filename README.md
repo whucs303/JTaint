@@ -39,7 +39,7 @@ DevTools listening on ws://127.0.0.1:51397/devtools/browser/0bedb2d3-e022-4084-a
 
 If JTaint finds extension's problems through taint analysis, it will write the result to a html file in the web server directory. You can use the browser to view them and retrieve whether there is a privacy leakage through the **sink** keyword.
 
-![1589637068362](D:\Typora\pictures\1589637068362.png)
+![1589637068362](https://s1.ax1x.com/2020/05/16/YgAfSS.png)
 
 
 
