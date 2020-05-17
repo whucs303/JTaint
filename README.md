@@ -10,7 +10,7 @@ JTaint consists of three parts, corresponding to the three folders in the direct
 
 You need to install a web server and copy the two files in `www` directory to the server directory. JTaint uses webdriver to control the browser to install extensions and simulate operation, so you need to download the chromedriver corresponding to your Chrome version at https://chromedriver.chromium.org.
 
-Finally, you can start JTaint in start.py. We provide an privacy-leaking extension in `example` folder, which is reported at https://securitywithsam.com/2019/07/dataspii-leak-via-browser-extensions/.
+Finally, you can start JTaint in start.py. We provide a privacy-leaking extension in `example` folder, which is reported at https://securitywithsam.com/2019/07/dataspii-leak-via-browser-extensions/.
 
 ### Example
 
@@ -37,7 +37,7 @@ DevTools listening on ws://127.0.0.1:51397/devtools/browser/0bedb2d3-e022-4084-a
 [19128:5476:0516/214313.353:ERROR:browser_switcher_service.cc(238)] XXX Init()
 ```
 
-If JTaint finds extension's problems through taint analysis, it will write the result to a html file in the web server directory. You can use the browser to view them and retrieve whether there is a privacy leakage through the **sink** keyword.
+If JTaint finds extension's problems through taint analysis, it will write the result to html file in the web server directory. You can use browser to view them and retrieve whether there is a privacy leakage through the **sink** keyword.
 
 ![1589637068362](https://s1.ax1x.com/2020/05/16/YgAfSS.png)
 
